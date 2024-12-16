@@ -1,14 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.google.gms.google-services")
+
 }
 
 android {
-    namespace = "com.jeevan.investmentsugg"
+    namespace = "com.jeevanS3340278.investmentsugg"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jeevan.investmentsugg"
+        applicationId = "com.jeevanS3340278.investmentsugg"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -62,6 +64,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
+    implementation(libs.firebase.database.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

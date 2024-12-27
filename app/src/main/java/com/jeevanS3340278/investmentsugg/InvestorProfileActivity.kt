@@ -101,6 +101,8 @@ fun InvestorProfile() {
                     }
 
             )
+
+            Spacer(modifier = Modifier.width(12.dp))
         }
 
         Spacer(modifier = Modifier.height(12.dp))

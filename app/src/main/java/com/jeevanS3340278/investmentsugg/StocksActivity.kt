@@ -209,6 +209,8 @@ fun StocksActivityScreen() {
 @Composable
 fun StockItem(stockData: StockData) {
 
+    val context = LocalContext.current
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -256,7 +258,11 @@ fun StockItem(stockData: StockData) {
 
                     Icon(
                         imageVector = Icons.Default.ArrowForward,
-                        contentDescription = "Arrow Forward"
+                        contentDescription = "Arrow Forward",
+                        modifier = Modifier.clickable {
+                            SelectedStock.selStock = stockData
+                            context.startActivity(Intent(context, StockDetailsActivity::class.java))
+                        }
                     )
 
                 }
@@ -356,6 +362,10 @@ fun StockItem(stockData: StockData) {
 
     }
 
+}
+
+object SelectedStock{
+    var selStock = StockData()
 }
 
 @Preview(showBackground = true)

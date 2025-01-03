@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jeevanS3340278.investmentsugg"
+    namespace = "com.jeevan.investmentsuggS3340278"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jeevanS3340278.investmentsugg"
+        applicationId = "com.jeevan.investmentsuggS3340278"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

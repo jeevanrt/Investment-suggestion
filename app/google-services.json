@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "411416980974",
+    "firebase_url": "https://investmentsugg-default-rtdb.firebaseio.com",
     "project_id": "investmentsugg",
     "storage_bucket": "investmentsugg.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411416980974:android:ebba760514655e5f2eb2ff",
+        "mobilesdk_app_id": "1:411416980974:android:e350fabf0d207eae2eb2ff",
         "android_client_info": {
-          "package_name": "com.jeevanS3340278.investmentsugg"
+          "package_name": "com.jeevan.investmentsuggS3340278"
         }
       },
       "oauth_client": [],

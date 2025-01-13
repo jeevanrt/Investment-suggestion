@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411416980974:android:e350fabf0d207eae2eb2ff",
+        "mobilesdk_app_id": "1:411416980974:android:f4e4457d494ef2c32eb2ff",
         "android_client_info": {
-          "package_name": "com.jeevan.investmentsuggS3340278"
+          "package_name": "jeevanS3340278.investmentsugg.development"
         }
       },
       "oauth_client": [],

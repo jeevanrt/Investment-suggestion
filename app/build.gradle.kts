@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.jeevan.investmentsuggS3340278"
+    namespace = "jeevanS3340278.investmentsugg.development"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jeevan.investmentsuggS3340278"
+        applicationId = "jeevanS3340278.investmentsugg.development"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -72,4 +72,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation("androidx.biometric:biometric:1.4.0-alpha02")
 }

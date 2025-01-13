@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,25 +16,34 @@
         android:theme="@style/Theme.InvestmentSugg"
         tools:targetApi="31">
         <activity
-            android:name=".StockDetailsActivity"
+            android:name="jeevanS3340278.investmentsugg.development.InvDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".InvestorProfileActivity"
+            android:name="jeevanS3340278.investmentsugg.development.KnowYourInvActivity"
             android:exported="false" />
         <activity
-            android:name=".MaterialActivity"
+            android:name="jeevanS3340278.investmentsugg.development.InvestmentFormulaActivity"
             android:exported="false" />
         <activity
-            android:name=".StocksActivity"
+            android:name="jeevanS3340278.investmentsugg.development.StockDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="jeevanS3340278.investmentsugg.development.InvestorProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="jeevanS3340278.investmentsugg.development.MaterialActivity"
+            android:exported="false" />
+        <activity
+            android:name="jeevanS3340278.investmentsugg.development.StocksActivity"
             android:exported="true" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="jeevanS3340278.investmentsugg.development.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
+            android:name="jeevanS3340278.investmentsugg.development.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="jeevanS3340278.investmentsugg.development.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.InvestmentSugg">
